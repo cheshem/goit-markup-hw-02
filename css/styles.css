@@ -1,0 +1,55 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #fff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* колір основного тексту #212121 */
+
+/* колір тексту другорядного #757575 */
+
+/* колір білий #FFFFFF */
+
+/*колір акцент #2196F3 */
+
+/* колір тексту футер rgba(255, 255, 255, 0.4) */
+
+/* другорядний колір фона #F5F4FA */
+
+.logo {
+  color: var(--title-text-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: var(--title-text-color);
+}
+/* Секції */
+
+.section-title {
+  color: var(--title-text-color);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
