@@ -7,11 +7,20 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
   background-color: var(--background-color);
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo:hover {
   color: var(--accent-color);
@@ -19,6 +28,10 @@ body {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -30,9 +43,15 @@ body {
   color: var(--accent-color);
 }
 /* конпки контакти */
-.contacts-text {color: var(--primary-text-color);}
+.contacts-text {
+  color: var(--primary-text-color);
+}
 
 .contacts-text:focus,
-.contacts-text:hover {color: var(--accent-color);}
+.contacts-text:hover {
+  color: var(--accent-color);
+}
 
+.list {
+  list-style: none;
 }

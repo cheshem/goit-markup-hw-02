@@ -5,11 +5,11 @@
   --background-color: #fff;
   --white-color: #ffffff;
 }
-
+/* 
 body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
-}
+} */
 
 .list {
   list-style: none;
@@ -27,9 +27,12 @@ body {
 
 /* другорядний колір фона #F5F4FA */
 
+/* колір фона герой rgba(47, 48, 58, 0.8); */
+
 .logo {
   color: var(--title-text-color);
 }
+
 .logo:hover {
   color: var(--accent-color);
 }
@@ -39,47 +42,65 @@ body {
 }
 
 .site-nav .link:focus,
-.site-nav .link:hover{color: var(--accent-color);}
-
+.site-nav .link:hover {
+  color: var(--accent-color);
+}
 
 .site-nav .link.current {
   color: var(--accent-color);
 }
 /* конпки контакти */
-.contacts-text {color: var(--primary-text-color);}
+.contacts-text {
+  color: var(--primary-text-color);
+}
 
 .contacts-text:focus,
-.contacts-text:hover {color: var(--accent-color);}
-
+.contacts-text:hover {
+  color: var(--accent-color);
 }
+
 /* Герой */
 .hero-title {
   color: var(--title-text-color);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
+.works {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
 /* Секції */
 
 .section-title {
   color: var(--title-text-color);
 }
-.feature-list .title {
-  color: var(--title-text-color);
-
-
-}
-
-/* приклади робіт */
-
-
-/* приклади робіт */
-
+/* переваги і приклади робіт */
+.feature-list .title,
 .work-list .title {
   color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
+.feature-list,
+text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 /* Button */
 
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 .button .primary {
