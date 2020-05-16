@@ -27,7 +27,7 @@ body {
 
 /* другорядний колір фона #F5F4FA */
 
-/* колір фона герой rgba(47, 48, 58, 0.8); */
+/* колір фона герой rgb(198, 198, 199) */
 
 .logo {
   color: var(--title-text-color);
@@ -39,6 +39,7 @@ body {
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .site-nav .link:focus,
@@ -52,6 +53,7 @@ body {
 /* конпки контакти */
 .contacts-text {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .contacts-text:focus,
@@ -69,7 +71,7 @@ body {
   letter-spacing: 0.06em;
 }
 .works {
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: rgb(198, 198, 199));
 }
 
 /* Секції */
@@ -101,9 +103,13 @@ text {
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .button .primary {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.list {
+  list-style: none;
 }
