@@ -33,9 +33,9 @@ body {
   color: var(--title-text-color);
 }
 
-.logo:hover {
+/* .logo:hover {
   color: var(--accent-color);
-}
+} */
 /* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
@@ -71,7 +71,7 @@ body {
   letter-spacing: 0.06em;
 }
 .works {
-  background-color: rgb(198, 198, 199));
+  background-color: rgb(198, 198, 199);
 }
 
 /* Секції */
@@ -110,6 +110,7 @@ text {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+
 .list {
   list-style: none;
 }
