@@ -99,9 +99,6 @@ body {
   color: var(--accent-color);
 }
 
-.list {
-  list-style: none;
-}
 /* футер */
 .page-footer {
   background-color: #2f303a;

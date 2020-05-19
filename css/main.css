@@ -11,10 +11,6 @@ body {
   background-color: var(--background-color);
 } */
 
-.list {
-  list-style: none;
-}
-
 /* колір основного тексту #212121 */
 
 /* колір тексту другорядного #757575 */
@@ -62,6 +58,12 @@ body {
 }
 
 /* Герой */
+.hero {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(198, 198, 199);
+}
+
 .hero-title {
   color: var(--title-text-color);
   text-align: center;
@@ -79,6 +81,7 @@ body {
 .section-title {
   color: var(--title-text-color);
 }
+
 /* переваги і приклади робіт */
 .feature-list .title,
 .work-list .title {
@@ -99,11 +102,12 @@ text {
 .button {
   color: var(--white-color);
   background-color: var(--accent-color);
-  font-weight: 500;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
   text-decoration: none;
+  text-align: center;
 }
 
 .button .primary {
