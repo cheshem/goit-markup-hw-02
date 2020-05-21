@@ -104,6 +104,14 @@ body {
   background-color: #2f303a;
   color: var(--primary-white-color);
 }
+.caption {
+  color: var(--white-color);
+  font-style: normal;
+}
+.link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .copyrigyt {
   font-size: 12px;

@@ -74,6 +74,7 @@ body {
 }
 .works {
   background-color: rgb(198, 198, 199);
+  text-transform: uppercase;
 }
 
 /* Секції */
@@ -86,11 +87,33 @@ body {
 .feature-list .title,
 .work-list .title {
   color: var(--title-text-color);
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.doing-text {
+  background-color: rgb(47, 48, 58, 0.8);
+  color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-text {
+  color: var(--title-text-color);
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+}
+/* Наша команда */
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .feature-list,
 text {
   font-size: 14px;
