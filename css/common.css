@@ -84,12 +84,18 @@ body {
 .portfolio:focus,
 .contact:hover,
 .contact:focus,
-.button:hover,
-.button:focus {
+.primary:hover,
+.primary:focus,
+.secondary:hover,
+.secondary:focus {
   color: var(--accent-color);
+  background-color: var(--white-color);
 }
 
 /* конпки контакти */
+.contacts {
+  list-style-type: none;
+}
 .contacts-text {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -120,6 +126,7 @@ body {
 }
 
 .caption {
+  font-size: 14px;
   color: var(--white-color);
   font-style: normal;
 }

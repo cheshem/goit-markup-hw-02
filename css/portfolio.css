@@ -4,6 +4,7 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  list-style: none;
 }
 
 p {
@@ -11,17 +12,22 @@ p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  list-style: none;
 }
 
-/* .button:hover,
+.button:hover,
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-} */
-
-.button:focus {
-  color: var(--accent-text-color);
 }
+/* 
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+} */
 
 .button {
   font-family: inherit;
@@ -30,9 +36,22 @@ p {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
-  background: #f5f4fa;
+  color: var(--white-color);
+  background: var(--primary-text-color);
 }
 .list {
+  text-decoration: none;
   list-style: none;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.line {
+  text-decoration: none;
+}
+.text {
+  color: var(--primary-text-color);
+}
+.line {
+  list-style-type: none;
 }
