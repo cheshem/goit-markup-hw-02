@@ -19,9 +19,9 @@ p {
   background-color: var(--accent-color);
 } */
 
-/* .button:focus {
+.button:focus {
   color: var(--accent-text-color);
-} */
+}
 
 .button {
   font-family: inherit;

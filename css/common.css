@@ -106,10 +106,34 @@ body {
   background-color: #2f303a;
   color: var(--primary-white-color);
 }
+
+.footer-call {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .caption {
   color: var(--white-color);
   font-style: normal;
 }
+.caption.contacts-text {
+  font-size: 14px;
+  line-height: 1.7px;
+  letter-spacing: 0.03;
+}
+.mslling {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
