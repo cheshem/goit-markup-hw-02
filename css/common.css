@@ -80,7 +80,9 @@ body {
 .portfolio:hover,
 .portfolio:focus,
 .contact:hover,
-.contact:focus {
+.contact:focus,
+.button:hover,
+.button:focus {
   color: var(--accent-color);
 }
 
@@ -150,4 +152,6 @@ body {
 
 .page-header {
   background-color: var(--primary-white-color);
+}
+.auth-nav {
 }
