@@ -111,7 +111,7 @@ body {
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -120,16 +120,16 @@ body {
   color: var(--white-color);
   font-style: normal;
 }
-.caption.contacts-text {
+.caption. contacts-text {
   font-size: 14px;
-  line-height: 1.7px;
+  line-height: 1.7;
   letter-spacing: 0.03;
 }
 .mslling {
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
