@@ -13,11 +13,11 @@ p {
   letter-spacing: 0.03em;
 }
 
-.button:hover,
+/* .button:hover,
 .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
+} */
 
 /* .button:focus {
   color: var(--accent-text-color);
