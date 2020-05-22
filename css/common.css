@@ -22,6 +22,7 @@ body {
 /* логотип */
 
 .logo {
+  color: var(--title-text-color);
   letter-spacing: 0.03em;
 }
 
@@ -36,6 +37,8 @@ body {
   letter-spacing: 0.03em;
 }
 .logo-foot {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.8;
@@ -70,7 +73,7 @@ body {
   color: var(--accent-color);
 } */
 
-.site-nav.link.current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -120,7 +123,7 @@ body {
   color: var(--white-color);
   font-style: normal;
 }
-.caption. contacts-text {
+.caption .contacts-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03;
@@ -146,7 +149,7 @@ body {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.social > .label {
+.social .label {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: -0.015em;
@@ -169,7 +172,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.button.secondary {
+.button .secondary {
   text-decoration-line: none;
   color: var(--primary-white-color);
 }
