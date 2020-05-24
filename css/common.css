@@ -4,6 +4,10 @@
   --accent-color: #2196f3;
   --background-color: #fff;
   --white-color: #ffffff;
+  --white-second-color: #f5f4fa;
+}
+html {
+  box-sizing: border-box;
 }
 
 *,
@@ -17,6 +21,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 /* логотип */
@@ -62,7 +67,7 @@ body {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
@@ -100,7 +105,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -129,6 +134,7 @@ body {
   font-size: 14px;
   color: var(--white-color);
   font-style: normal;
+  line-height: 1.7;
 }
 .caption .contacts-text {
   font-size: 14px;
@@ -159,7 +165,7 @@ body {
 .social .label {
   font-size: 15px;
   line-height: 1.6;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.015em;
 
   color: var(--primary-white-color);
 }
@@ -168,14 +174,14 @@ body {
   font-weight: 700;
   font-size: 15px;
   line-height: 1.6;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.015em;
   color: var(--primary-white-color);
 }
 
 .page-footer .list {
   font-size: 15px;
   line-height: 1.6;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.015em;
   color: var(--primary-white-color);
 }
 
@@ -186,4 +192,25 @@ body {
 
 .page-header {
   background-color: var(--primary-white-color);
+}
+.list {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-align: center;
+}
+.list {
+  list-style: none;
 }

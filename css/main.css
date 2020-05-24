@@ -83,7 +83,7 @@ body {
 
 /* Button */
 
-.button {
+/* .button {
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -92,13 +92,17 @@ body {
   letter-spacing: 0.06em;
   text-decoration: none;
   text-align: center;
-}
+} */
 
 .button .primary {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
 
-.list {
+/* .list {
   list-style: none;
+} */
+.hero .button {
+  display: inline-block;
+  padding: 20px 40px;
 }

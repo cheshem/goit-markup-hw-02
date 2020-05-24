@@ -15,39 +15,45 @@ p {
   list-style: none;
 }
 
-.button:hover,
-.button:focus {
+.line .button:hover,
+.line .button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-/* 
+/* /* 
 .button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
+} */
 .button:hover {
   background-color: var(--accent-color);
-} */
+}
 
-.button {
+.line .button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.63;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--white-color);
-  background: var(--primary-text-color);
+  color: var(--title-text-color);
+  background-color: var(--white-color);
 }
-.list {
+/* .list {
   text-decoration: none;
   list-style: none;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+} */
 .line {
   text-decoration: none;
+  color: var(--title-text-color);
+}
+.line:hover,
+.line:focus {
+  color: var(--white-color);
 }
 .text {
   color: var(--primary-text-color);
